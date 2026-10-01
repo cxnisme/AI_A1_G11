@@ -1,0 +1,25 @@
+{
+  "random_state": 42,
+  "feature_columns": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ],
+  "k_scores": {
+    "2": 0.5583734526053082,
+    "3": 0.4799503539270343,
+    "4": 0.39873662693425327,
+    "5": 0.3963303279199598
+  },
+  "selected_k": 2,
+  "k_range_evaluated": [
+    2,
+    5
+  ],
+  "records_labelled": 20,
+  "selection_rule": "highest silhouette score",
+  "interpretation_note": "Clusters are unsupervised groupings of the six input features only. They are not verified real-world categories and should be used as context, not as a decision rule."
+}

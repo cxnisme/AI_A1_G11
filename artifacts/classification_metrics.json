@@ -1,0 +1,33 @@
+{
+  "model_type": "LogisticRegression",
+  "random_state": 42,
+  "test_size": 0.2,
+  "decision_threshold": 0.5,
+  "train_rows": 16,
+  "test_rows": 4,
+  "scaler_fit_on": "training split only",
+  "feature_columns": [
+    "plot_area_ha",
+    "rainfall_mm",
+    "soil_ph",
+    "seed_kg",
+    "distance_km",
+    "arrival_hour"
+  ],
+  "stratified": true,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "confusion_matrix": [
+    [
+      3,
+      0
+    ],
+    [
+      0,
+      1
+    ]
+  ],
+  "error_cost_note": "A false negative (predicting 0 when the consignment needs attention) is usually more costly here: a problem consignment is dispatched without review. A false positive only costs staff review time. Lowering the decision threshold trades more false positives for fewer false negatives."
+}
