@@ -7,7 +7,7 @@ SWE 3513 Artificial Intelligence - Assignment 1 - INES-Ruhengeri
 | Group number / code | AI_A1_G11 / AI-G11 |
 | Group leader | NIWENIRINGIYE Christian (25/27889) |
 | Repository | https://github.com/cxnisme/AI_A1_G11 |
-| Final commit hash | Fill after final evidence commit and push |
+| Code-freeze commit hash | `1932215247629531ce349c70eeaa0b9fdfd8ada0` |
 | Dataset SHA-256 | `288446a93592327e4c419696e452e0e843882a0e9c08f9dbf6c7531f6eb12e5f` (must equal the lecturer-issued file; re-check with `sha256sum data/AI_A1_G11.csv`) |
 | Python tested | 3.12.3 (Windows, isolated virtual environment) |
 
@@ -67,6 +67,8 @@ python -m unittest discover -s tests -v
 Twelve checks run on a temporary copy, so `artifacts/` is not touched: full run, all artifacts present, SHA-256 equals the file, regression MAE recomputed from saved predictions, confusion matrix consistent with accuracy, every record clustered with k=2..5, valid predict, rejected predict inputs, hidden-like data (different rows, shuffled column order, a missing value), the live-change options, a clear error for a diverging learning rate, and gradient descent matching the closed-form least-squares solution.
 
 The isolated Windows virtual-environment run and its 12-test result are recorded in `evidence/CLEAN_ENV_RUN.txt`. The machine-specific command log, including prediction checks, is in `evidence/TEST_LOG.pdf`.
+
+Build the submission ZIP with `git archive` from the final evidence commit recorded in Moodle. That final evidence commit follows the code-freeze commit above and contains the refreshed Windows test log and this README evidence note.
 
 ## Expected outputs (`artifacts/`)
 
