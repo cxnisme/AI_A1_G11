@@ -26,8 +26,8 @@ Group AI_A1_G11 used generative AI tools while building this project. Each membe
 ## Tool 3: GitHub Copilot (VS Code)
 
 - Purpose: completed Windows-side verification and updated the supplied member roster in the project evidence.
-- Files affected: `tests/test_pipeline.py` (preserved the dataset bytes when copying the Windows test fixture so its SHA-256 remains stable); `README.md`; the work-folder `evidence_config.json`; regenerated UI/UX, contributions and test-log PDFs; `evidence/CLEAN_ENV_RUN.txt`.
-- Verification: all 12 unit tests passed in Python 3.12.3 and in a fresh isolated virtual environment; the pipeline reported the expected dataset SHA-256. The isolated run used a workspace copy, not a Git clone.
+- Files affected: `.gitattributes` (prevents Git from rewriting CSV line endings); `tests/test_pipeline.py` (preserves dataset bytes in the Windows test fixture); `README.md`; the work-folder `evidence_config.json`; regenerated UI/UX, contributions and test-log PDFs; `evidence/CLEAN_ENV_RUN.txt`.
+- Verification: all 12 unit tests passed in Python 3.12.3 in a fresh virtual environment cloned from the pushed repository. The clean clone retained the expected dataset SHA-256 and the pipeline completed successfully.
 
 ## What AI did not do
 

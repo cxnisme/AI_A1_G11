@@ -1,12 +1,12 @@
 ﻿**********************
 Windows PowerShell transcript start
-Start time: 20261001102609
+Start time: 20261001115735
 Username: DESKTOP-INR3DP5\Bishop NDAYIS
 RunAs User: DESKTOP-INR3DP5\Bishop NDAYIS
 Configuration Name: 
 Machine: DESKTOP-INR3DP5 (Microsoft Windows NT 10.0.26200.0)
 Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\Bishop NDAYIS\AppData\Local\Programs\Microsoft VS Code\04c0d99f4f\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
-Process ID: 15048
+Process ID: 11200
 PSVersion: 5.1.26100.9444
 PSEdition: Desktop
 PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
@@ -17,9 +17,10 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is C:\dev\AI_A1_G11_work\AI_A1_G11\AI_A1_G11\evidence\CLEAN_ENV_RUN.txt
-Isolated temporary virtual-environment run; source copied from workspace, not cloned from GitHub.
-Source: C:\dev\AI_A1_G11_work\AI_A1_G11\AI_A1_G11
-Python base: C:/Users/Bishop NDAYIS/AppData/Local/Programs/Python/Python312/python.exe
+Fresh Git clone verification (Windows); clone created from the pushed repository.
+Repository: https://github.com/cxnisme/AI_A1_G11
+Cloned commit: 79e84bf087eee202e10692ee2d912a974a8e28ff
+Dataset SHA-256: 288446a93592327e4c419696e452e0e843882a0e9c08f9dbf6c7531f6eb12e5f
 
 
 
@@ -29,5 +30,5 @@ CLEAN_PIPELINE_EXIT=0
 CLEAN_TESTS_EXIT=0
 **********************
 Windows PowerShell transcript end
-End time: 20261001102846
+End time: 20261001120256
 **********************

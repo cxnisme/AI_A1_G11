@@ -7,7 +7,7 @@ SWE 3513 Artificial Intelligence - Assignment 1 - INES-Ruhengeri
 | Group number / code | AI_A1_G11 / AI-G11 |
 | Group leader | NIWENIRINGIYE Christian (25/27889) |
 | Repository | https://github.com/cxnisme/AI_A1_G11 |
-| Code-freeze commit hash | `1932215247629531ce349c70eeaa0b9fdfd8ada0` |
+| Code-freeze commit hash | `79e84bf087eee202e10692ee2d912a974a8e28ff` |
 | Dataset SHA-256 | `288446a93592327e4c419696e452e0e843882a0e9c08f9dbf6c7531f6eb12e5f` (must equal the lecturer-issued file; re-check with `sha256sum data/AI_A1_G11.csv`) |
 | Python tested | 3.12.3 (Windows, isolated virtual environment) |
 
