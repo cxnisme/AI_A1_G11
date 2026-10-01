@@ -15,11 +15,11 @@ SWE 3513 Artificial Intelligence - Assignment 1 - INES-Ruhengeri
 
 | Member | Name | Registration no. | GitHub username | Role |
 |---|---|---|---|---|
-| 1 | IHIMBAZWE Angelique | Not provided | Angelique-123 | Data and UX lead |
+| 1 | IHIMBAZWE Angelique | 24/26926 | Angelique-123 | Data and UX lead |
 | 2 | RUDASINGWA Theogene | 25/27330 | rudasingwatheogene1 | Regression engineer |
 | 3 | IGIRANEZA Alain Providence | 25/28075 | alain143 | Classification engineer |
 | 4 | Bullen Ladu Martin | 24/23862 | ladumartinbullen-cmyk | Clustering and QA engineer |
-| 5 | NIWENIRINGIYE Christian | 25/27889 | Not provided | Reproducibility and release lead |
+| 5 | NIWENIRINGIYE Christian | 25/27889 | cxnisme | Reproducibility and release lead |
 
 GitHub usernames are not necessarily Git commit author names or emails. Record each member's exact `git config user.name` or `git config user.email` value before generating the signed contribution record.
 
